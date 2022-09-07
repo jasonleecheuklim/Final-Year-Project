@@ -1,6 +1,0 @@
-Cal: compute()
-Cal: method1(2,3)
-Cal: method3(3)
-Cal: method2(hello)
-method1(2,3)=8
-method2(hello)=3
