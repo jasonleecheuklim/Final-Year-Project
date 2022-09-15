@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+
+    <title>Title</title>
+    <script type="text/javascript" src="jslib/jquery-1.11.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });
+    </script>
+    <style type="text/css">
+        body {
+            margin: 10px;
+        }
+
+        #div1 {
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+
+        #div2 {
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <input type="button" id="append" value="Product append to Last"/>
+    <select id="product">
+        <option value="white">Choose product</option>
+        <option value="Desktop">Desktop</option>
+        <option value="Notebook">Notebook</option>
+        <option value="iPad">iPad</option>
+        <option value="iPhone">iPhone</option>
+        <option value="Tablet">Tablet</option>
+    </select>
+    <input type="button" id="prepend" value="Product append to Top"/>
+    <input type="button" id="clear" value="Clear All"/>
+    <input type="button" id="update" value="Put to Shopping Cart"/><br/>
+    <p>Append Product Below:</p>
+    <div id="div1"><span></span></div>
+    <br/>
+    <p>Shopping Cart: </p>
+    <div id="div2"><span></span></div>
+</center>
+</body>
+</html>
